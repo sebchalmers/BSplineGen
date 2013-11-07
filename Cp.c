@@ -257,6 +257,7 @@ int main()
         EvalSpline0(x,y,out);
     }
 
+    /*
     for (int k=0;k<1e6;k++)
     {
         //printf("k = %d",k);
@@ -268,7 +269,7 @@ int main()
         //printf("k = %d",k);
         EvalSpline2(x,y,out);
     }
-    
+    */
     printf("s = %f\n",out[0]);
     printf("ds/dx = %f \n",out[1]);
     printf("ds/dy = %f \n",out[2]);
